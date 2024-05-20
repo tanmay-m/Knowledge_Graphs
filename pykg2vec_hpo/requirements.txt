@@ -1,0 +1,6 @@
+wandb==0.16.4
+optuna==3.6.0
+optuna_integration==3.6.0
+hyperopt==0.2.7
+pandas==2.0.3
+torch==2.3.0
