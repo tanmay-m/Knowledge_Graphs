@@ -1,0 +1,49 @@
+openke:
+   embeddingDimension: 128
+   batchSize: 512
+   optimizer: sgd
+   margin: 0.7
+   alpha: 0.9839
+   loss: margin
+   entity_initializer: xavier_uniform_
+pykeen:
+   embeddingDimension: 128
+   batchSize: 256
+   optimizer: Adagrad
+   loss: CrossEntropyLoss
+   lr: 0.199365639
+   weights: 0.000145336
+   num_negs_per_pos: 21
+   entity_initializer: xavier_uniform_
+   relation_initializer: xavier_normal_uniform_
+   entity_regularizer: 2
+pyGeometric:
+   embeddingDimension: 128
+   batchSize: 256
+   optimizer: Adagrad
+   margin: 0.005925
+   loss: BCEWithLogitsLoss
+   lr: 0.0005573
+   weights: 0.0001325
+torchkge:
+   embeddingDimension: 1024
+   batchSize: 1024
+   optimizer: adagrad
+   loss: bce
+   lr: 0.00058732
+pykg2vec:
+   batch_size: 128
+   margin: 0.8
+   optimizer: adam
+   lmda: 0.1
+   hidden_size: 50
+   learning_rate: 0.01
+ampligraph:
+   batchSize: 1024
+   optimizer: adagrad
+   loss: pairwise
+   learning_rate: 0.004
+
+
+
+  
