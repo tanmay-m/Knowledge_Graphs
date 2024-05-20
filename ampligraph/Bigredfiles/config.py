@@ -1,0 +1,5 @@
+WANDB_PROJECT = "Pykeen_sweeps"
+WANDB_ENTITY = "tanmay-mandy"
+MODEL_NAME = "TransE"
+WANDB_API_KEY = "e339d692c6d0e5d0c84b303e0919755ad67635e8"
+NUM_TRIALS = 30
